@@ -5,10 +5,10 @@ import org.eclipse.jgit.lib.StoredConfig;
 
 node
 {
- git "git@github.com:VirtoCommerce/jenkins-pipeline-scripts.git"
+ git "git@github.com:yanaganti123/jenkins-pipeline-grovyscripts.git"
 }
 
-def upstreamRepoUrl = "https://github.com/VirtoCommerce/jenkins-pipeline-scripts"
+def upstreamRepoUrl = "https://github.com/yanaganti123/jenkins-pipeline-grovyscripts"
 Jenkins j = Jenkins.getInstance();
 File workflowLibDir = new File(j.getRootPath().toString(), "workflow-libs")
 
